@@ -1,7 +1,20 @@
-#sigma {
+.top {
+    text-align: center;
+    font-size: 80px;
+}
+
+.games {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 24%;
+    padding: 10px;
     text-align: center;
 }
 
-#skibidi {
-    color: #4a86e8
+#img1 {
+    width: 80px;
+    height: 80px;
 }
