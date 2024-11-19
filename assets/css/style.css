@@ -2,7 +2,24 @@ body {
     font-family: 'Lexend Deca', sans-serif;
 }
 
+/* Nav bar */
 
+.nav {
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+}
+
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Big Text */
 .home h1 {
     text-align: center;
     font-size: 70px;
@@ -14,6 +31,8 @@ body {
     font-weight: normal;
 }
 
+
+/* Game Menu */
 .games-container {
     text-align: center;
 }
@@ -29,12 +48,12 @@ body {
 }
 
 #games td {
-    width: 25%;
+    width: 24%;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .game-title {
     font-weight: normal;
     text-align: center;
-    padding-right: 100px;
-    padding-left: 100px;
 }
