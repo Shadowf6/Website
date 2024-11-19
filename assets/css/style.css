@@ -33,6 +33,7 @@
 #games {
     border-collapse: collapse;
     width: 100%;
+    text-align: center;
 }
 
 .games td {
@@ -43,4 +44,3 @@
 .game-title {
     font-weight: normal;
 }
-
