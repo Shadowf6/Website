@@ -3,26 +3,35 @@ body {
 }
 
 /* Nav bar */
-
 .nav {
     background-color: black;
     overflow: hidden;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .nav a {
-    float: left;
+    float: right;
     color: white;
     text-align: center;
     padding: 14px 16px;
+    padding-right: 30px;
     text-decoration: none;
     font-size: 18px;
+}
+
+.nav #logo {
+    float: left;
+    padding-left: 25px;
 }
 
 /* Big Text */
 .home h1 {
     text-align: center;
     font-size: 70px;
+    padding-top: 100px;
 }
 
 .home p {
