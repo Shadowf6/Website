@@ -1,33 +1,21 @@
-.bar {
-    background-color: #007BA7;
-    overflow: hidden;
-    height: 50px;
+body {
+    font-family: 'Lexend Deca', sans-serif;
 }
 
-#home-nav {
-    text-align: left;
-    color: black;
-    text-decoration: none;
-}
 
-.nav-link {
-    color: black;
-    text-decoration: none;
-    text-align: right;
-    padding: 14px 10px;
-}
-
-.top h1 {
+.home h1 {
     text-align: center;
     font-size: 70px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
-.top p {
+.home p {
     text-align: center;
     font-size: 45px;
     font-weight: normal;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.games-container {
+    text-align: center;
 }
 
 #games {
@@ -36,11 +24,17 @@
     text-align: center;
 }
 
-.games td {
-    padding: 15px;
+#games tr {
     text-align: center;
+}
+
+#games td {
+    width: 25%;
 }
 
 .game-title {
     font-weight: normal;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
 }

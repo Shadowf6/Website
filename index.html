@@ -1,38 +1,52 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="utf-8">
         <title>Flare Studios</title>
         <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/app.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <header class="bar">
-            <a href="index.html" class="nav-link">Flare Studios</a>
-            <a href="donate.html" class="nav-link">Donate</a>
-        </header>
+        <div class="nav">
 
-        <div class="top">
+        </div>
+
+        <div class="home">
             <h1>Home</h1>
             <p>Play my games!</p>
         </div>
         
-        <table id="games">
-            <tr>
-                <td>
-                    <h2 class="game-title">FlyHook</h3>
-                </td>
-                <td>
-                    <h2 class="game-title">Sceptor</h3>
-                </td>
-                <td>
-                    <h2 class="game-title">Arenale</h3>
-                </td>
-                <td>
-                    <h2 class="game-title">Grid<sup>2</sup></h2>
-                </td>
-            </tr>
-        </table>
+        <div class="games-container">
+            <table id="games">
+                <tr>
+                    <td><h2 class="game-title">FlyHook</h3></td>
+                    <td><h2 class="game-title">Sceptor</h3></td>
+                    <td><h2 class="game-title">Arenale</h3></td>
+                    <td><h2 class="game-title">Grid<sup>2</sup></h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td><p class="game-description">
+                        Fast paced first person shooter. Fly around at extreme speeds while losing zero accuracy in your gun.
+                    </p></td>
+                    <td><p class="game-description">
+                        Top-down 5v5 matches. Play and upgrade powerful characters with unique abilities and attacks.
+                    </p></td>
+                    <td><p class="game-description">
+                        1v1 first person duels with powerful melee weapons. 
+                        Work to create powerful combos and break your opponent's guard.
+                    </p></td>
+                    <td><p class="game-description">
+                        Randomly generated 9x9 grid, each containing its own enemies, weapons, and treasure for you to discover. 
+                        Enjoy singleplayer or multiplayer adventure.
+                    </p></td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
