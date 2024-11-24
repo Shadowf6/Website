@@ -1,10 +1,10 @@
 body {
     font-family: 'Lexend Deca', sans-serif;
+    background-color: rgb(122, 184, 239);
 }
 
-/* Nav bar */
 .nav {
-    background-color: black;
+    background-color: #ff4d00;
     overflow: hidden;
     width: 100%;
     position: fixed;
@@ -14,7 +14,7 @@ body {
 
 .nav a {
     float: right;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     padding-right: 30px;
@@ -22,12 +22,15 @@ body {
     font-size: 18px;
 }
 
+.nav a:hover {
+    color: rgb(227, 216, 216);
+}
+
 .nav #logo {
     float: left;
     padding-left: 25px;
 }
 
-/* Big Text */
 .home h1 {
     text-align: center;
     font-size: 70px;
@@ -40,8 +43,6 @@ body {
     font-weight: normal;
 }
 
-
-/* Game Menu */
 .games-container {
     text-align: center;
 }
